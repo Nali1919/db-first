@@ -1,0 +1,23 @@
+CARS
+
+ID                      - integer   -PRIMARY KEY  - UNSIGEND  - INT  - NOT NULL - AUTOINCREMENT -UNIQUE
+MAKE                   - string    - VARCHAR (255)     - NOT NULL 
+MODEL                 - string    - VARCHAR (255)     - NOT NULL 
+YEAR                    - date      - YEAR(YYYY)        - NOT NULL 
+KM                      - integr    - MEDIUMINT - UNSIGNED - NOT NULL 
+PRICE_euro             - decimal   - DECIMAL(8,2) - UNSIGNED - NOT NULL 
+TOWN                  - String    - VARCHAR (255)     -  NULL 
+DOORS                  - integer   - TINYINT           -  NULL 
+FUEL              - string    - VARCHAR (255)     -  NOT NULL 
+POWER_Cv              - Integer   - DECIMAL (3,2)     -  NOT NULL   
+PREVIOUS OWNERS  - integer   - TINYINT     - UNSIGNED     -  NULL 
+SEATING          - Integer   - TINYINT     - UNSIGNED -  NULL 
+CHANGE                  - String    - VARCHAR (255)     -  NULL - DEFAULT("Change manual")
+OVERHAUL         - DATE - NULL
+
+
+
+
+
+
+
